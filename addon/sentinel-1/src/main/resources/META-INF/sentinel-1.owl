@@ -1052,7 +1052,7 @@
                        type="text_general"/>
          </metadataType>
 
-         <metadataType id="timelinessCategory"
+         <metadataType id="timelinessCategory"                       
                        name="Timeliness Category"
                        contentType="text/plain"
                        category="product">
@@ -1108,7 +1108,7 @@
                 productType)}
          </metadata>,
 
-          <metadata
+          <metadata queryable="timelinessCategory"
             category="product"
             name="Timeliness Category"
             type="text/plain">
